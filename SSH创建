@@ -1,0 +1,70 @@
+SSH
+
+1、创建SSH：
+ $ ssh-keygen -t rsa -C “xxxx@xxx.com"
+
+Generating public/private rsa key pair.
+
+Enter file in which to save the key (/Users/Belief/.ssh/id_rsa): git_os_rsa
+
+Enter passphrase (empty for no passphrase): 
+
+Enter same passphrase again: 
+
+Your identification has been saved in git_os_rsa.
+
+Your public key has been saved in git_os_rsa.pub.
+
+The key fingerprint is:
+
+07:73:91:05:e4:1b:6b:d4:94:ed:4d:55:50:ae:4a:f8 1605319671@qq.com
+
+The key's randomart image is:
+
++--[ RSA 2048]----+
+
+|         .++oo.o*|
+
+|         ..+. ...|
+
+|        o = .. o.|
+
+|         = =  ...|
+
+|        S * . .  |
+
+|         o o .   |
+
+|            E    |
+
+|                 |
+
+|                 |
+
++-----------------+
+
+
+2、将公钥添加到剪贴板，再添加(粘贴)到网页中
+$ pbcopy < ~/.ssh/id_rsa.pub
+# Copies the contents of the id_rsa.pub file to your clipboard
+
+
+3、本地验证：
+ $ eval "$(ssh-agent -s)"
+
+Agent pid 2815
+
+ $ ssh-add ~/.ssh/git_os_rsa
+
+Enter passphrase for /Users/Belief/.ssh/git_os_rsa: 
+
+Identity added: /Users/xxx/.ssh/git_os_rsa (/Users/xxx/.ssh/git_os_rsa)
+
+ $ ssh -T git@git.oschina.net
+
+Welcome to Git@OSC, SpongeBob_Han!
+
+
+
+4、导入工程：
+$ git clone https://github.com/bartaz/impress.js.git
