@@ -1,40 +1,22 @@
 # Terminal
-Just do what I want to do.
+用终端，配置环境
 
-### Easy done
+### 利用MAC终端，配置IOS开发环境
 ```
-set nu " 显示行号
+#  1、创建SSH
 
-syntax on " 语法高亮 set syntax = on
+#  2、利用‘国内的GitHub’，实现源代码的托管
 
-filetype plugin on " 共享剪贴板
+        －－好处：可以创建私有的'Repository'，管理自己的代码
 
+#  3、搭建WebDav文件服务器(基于Apache)
 
+#  4、Vim终端编辑器－配置(.vimrc)
 
-autocmd FileType c,cpp map <buffer><leader><space>:w<cr>:make<cr>
+#  5、Xcode中，安装CocoaPods(管理开源框架)
 
-" 代码补全
+#  6、Git配置
 
-
-
-set autoindent " 自动缩进
-
-set cindent
-
-"set confirm " 在处理未保存或只读文件的时候，弹出确认
-
-
-
-set tabstop=4 " Tab键的宽度
-
-set softtabstop= 4 " 统一缩进
-
-set shiftwidth=4
-
-
-
-"set enc=utf-8 " 编码设置
-
-"set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
+#  7、终端常用命令
 
 ```
