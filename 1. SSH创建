@@ -1,4 +1,9 @@
-SSH
+SSH：
+
+   		|--> Copyright (c) 2015 Bing Ma.
+  	 	|--> GitHub RUL: https://github.com/SpongeBob-GitHub
+
+================================================================================================
 
 1、创建SSH：
  $ ssh-keygen -t rsa -C “xxxx@xxx.com"
@@ -68,3 +73,5 @@ Welcome to Git@OSC, SpongeBob_Han!
 
 4、导入工程：
 $ git clone https://github.com/bartaz/impress.js.git
+
+================================================================================================
