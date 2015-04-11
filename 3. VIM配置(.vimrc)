@@ -1,3 +1,9 @@
+" VIM:
+" 		|--> Copyright (c) 2015 Bing Ma.
+" 		|--> GitHub RUL: https://github.com/SpongeBob-GitHub
+
+" [PS: 将以下内容复制，粘贴到.vimrc中即可！]
+" ==========================================================================================================
 
 :set number
 :set cindent
@@ -604,3 +610,5 @@ if version >= 603
 
 				    let g:miniBufExplMapCTabSwitchBufs = 1
 				    let g:miniBufExplModSelTarget = 1
+
+" ==========================================================================================================
