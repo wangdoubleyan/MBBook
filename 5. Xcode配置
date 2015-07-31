@@ -28,6 +28,8 @@ PS: |－> 使用步骤： 安装完成＝＝》重启Xcode＝＝》Window＝＝�
 
 5> SCXcodeMinimap  编辑视图：
 
+6> XToDo  "TODO", "FIXME", "???", "!!!!"
+
 PS：插件管理
 |－> 
 	文件目录： ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/
