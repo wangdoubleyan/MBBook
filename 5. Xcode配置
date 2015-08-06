@@ -10,7 +10,7 @@
 1、包管理器在线安装
 
 Terminal终端 
-$ curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/master/Scripts/install.sh | sh
+$ curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.sh | sh
 
 PS: |－> 使用步骤： 安装完成＝＝》重启Xcode＝＝》Window＝＝》Package Manager  <－|
 
