@@ -5,7 +5,9 @@ SSH：
 
 ================================================================================================
 
-0、切入到.ssh目录
+原文教程：https://help.github.com/articles/generating-an-ssh-key/
+
+0、切入到.ssh目录［没有就用vi新建一个.ssh文件］
  $ cd ~/.ssh
 
 1、创建SSH：
@@ -56,6 +58,8 @@ The key's randomart image is:
 $ pbcopy < ~/.ssh/git_os_rsa.pub
 # Copies the contents of the git_os_rsa.pub file to your clipboard
 
+2.1、回到github网页，添加SSH的key，将内容直接粘贴上去
+添加SSH到网页上！
 
 3、本地验证：
  $ eval "$(ssh-agent -s)"
@@ -68,13 +72,24 @@ Enter passphrase for /Users/Belief/.ssh/git_os_rsa:
 
 Identity added: /Users/xxx/.ssh/git_os_rsa (/Users/xxx/.ssh/git_os_rsa)
 
+#验证gitoschina的ssh
  $ ssh -T git@git.oschina.net
 
 Welcome to Git@OSC, SpongeBob_Han!
 
+#验证github的ssh
+ $ ssh -T git@github.com
+ 
+ 成功显示为：
+ The authenticity of host 'github.com (192.xx.xxx.129)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGsfsIsfCspRomTxdCARLvvdw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.xx.xxx.129' (RSA) to the list of known hosts.
+Hi SpongeBob-GitHub! You've successfully authenticated, but GitHub does not provide shell access.
 
+＃end 添加ssh完成！
 
-4、导入工程：
+git使用：导入工程：
 $ git clone https://github.com/bartaz/impress.js.git
 
 ================================================================================================
