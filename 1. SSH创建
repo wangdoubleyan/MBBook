@@ -53,8 +53,8 @@ The key's randomart image is:
 
 
 2、将公钥添加到剪贴板，再添加(粘贴)到网页中
-$ pbcopy < ~/.ssh/id_rsa.pub
-# Copies the contents of the id_rsa.pub file to your clipboard
+$ pbcopy < ~/.ssh/git_os_rsa.pub
+# Copies the contents of the git_os_rsa.pub file to your clipboard
 
 
 3、本地验证：
