@@ -7,7 +7,7 @@ SSH：
 
 原文教程：https://help.github.com/articles/generating-an-ssh-key/
 
-0、切入到.ssh目录［没有就用vi新建一个.ssh文件］
+0、切入到.ssh目录［没有就用mkdir新建一个.ssh文件夹］
  $ cd ~/.ssh
 
 1、创建SSH：
