@@ -3,7 +3,7 @@
 //  Reader
 //
 //  Created by Bing Ma on 7/7/17.
-//  Copyright © 2017 SF. All rights reserved.
+//  Copyright © 2017 Bing Ma (Hannb). All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

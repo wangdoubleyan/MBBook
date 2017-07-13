@@ -3,7 +3,7 @@
 //  Reader
 //
 //  Created by Bing Ma on 6/22/17.
-//  Copyright © 2017 SF. All rights reserved.
+//  Copyright © 2017 Bing Ma (Hannb). All rights reserved.
 //
 
 #import "MBAlphaImageView.h"
@@ -33,7 +33,7 @@
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event{
 
     CGFloat alpha = [self getImageAlphaWithPointInside:point];
-    NSLog(@"alpha%f",alpha);
+//    NSLog(@"alpha%f",alpha);
     /*  那么pixel数组中唯一元素的值就是手指触摸点那一个像素的alpha值，
      *  做归一化为与0.01比较，如果小于0.01就表明手指触摸点是透明的，
      *  这时候返回NO就能够实现穿透效果，相反大于0.01就不会穿透
