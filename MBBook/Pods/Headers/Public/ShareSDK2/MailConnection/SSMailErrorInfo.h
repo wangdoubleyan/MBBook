@@ -1,1 +1,0 @@
-../../../../ShareSDK2/ShareSDK/Connection/MailConnection.framework/Headers/SSMailErrorInfo.h

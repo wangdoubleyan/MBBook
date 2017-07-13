@@ -1,1 +1,0 @@
-../../../../ShareSDK2/ShareSDK/Connection/SinaWeiboConnection.framework/Headers/SSSinaWeiboCommentReader.h

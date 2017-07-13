@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0C7A9CA9EB7DC8634AC11A60 /* libPods-MBBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356DA2B671E97C051C0BDDCD /* libPods-MBBook.a */; };
+		14A7DA621F1761AB007DFAAA /* MBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA5F1F1761AB007DFAAA /* MBNavigationController.m */; };
+		14A7DA631F1761AB007DFAAA /* MBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA611F1761AB007DFAAA /* MBTabBarController.m */; };
 		14C7B1F11F1729700021BB7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C7B1F01F1729700021BB7D /* main.m */; };
 		14C7B1F41F1729700021BB7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C7B1F31F1729700021BB7D /* AppDelegate.m */; };
 		14C7B1FC1F1729700021BB7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C7B1FB1F1729700021BB7D /* Assets.xcassets */; };
@@ -35,6 +37,10 @@
 
 /* Begin PBXFileReference section */
 		14A7DA481F175E10007DFAAA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		14A7DA5E1F1761AB007DFAAA /* MBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNavigationController.h; sourceTree = "<group>"; };
+		14A7DA5F1F1761AB007DFAAA /* MBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNavigationController.m; sourceTree = "<group>"; };
+		14A7DA601F1761AB007DFAAA /* MBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarController.h; sourceTree = "<group>"; };
+		14A7DA611F1761AB007DFAAA /* MBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarController.m; sourceTree = "<group>"; };
 		14C7B1EC1F1729700021BB7D /* MBBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C7B1F01F1729700021BB7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14C7B1F21F1729700021BB7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +85,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14A7DA4A1F1760D3007DFAAA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				14A7DA5D1F1761A0007DFAAA /* Base */,
+				14A7DA4B1F1760D3007DFAAA /* BookDetail */,
+				14A7DA4C1F1760D3007DFAAA /* Cats */,
+				14A7DA4D1F1760D3007DFAAA /* Main */,
+				14A7DA4E1F1760D3007DFAAA /* Others */,
+				14A7DA531F1760D3007DFAAA /* Ranking */,
+				14A7DA541F1760D3007DFAAA /* Reader */,
+				14A7DA551F1760D3007DFAAA /* Search */,
+				14A7DA561F1760D3007DFAAA /* Setting */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		14A7DA4B1F1760D3007DFAAA /* BookDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BookDetail;
+			sourceTree = "<group>";
+		};
+		14A7DA4C1F1760D3007DFAAA /* Cats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cats;
+			sourceTree = "<group>";
+		};
+		14A7DA4D1F1760D3007DFAAA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		14A7DA4E1F1760D3007DFAAA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				14A7DA4F1F1760D3007DFAAA /* Custom */,
+				14A7DA501F1760D3007DFAAA /* Database */,
+				14A7DA511F1760D3007DFAAA /* Libs */,
+				14A7DA521F1760D3007DFAAA /* Network */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		14A7DA4F1F1760D3007DFAAA /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		14A7DA501F1760D3007DFAAA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		14A7DA511F1760D3007DFAAA /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		14A7DA521F1760D3007DFAAA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		14A7DA531F1760D3007DFAAA /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		14A7DA541F1760D3007DFAAA /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		14A7DA551F1760D3007DFAAA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		14A7DA561F1760D3007DFAAA /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		14A7DA5D1F1761A0007DFAAA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				14A7DA5E1F1761AB007DFAAA /* MBNavigationController.h */,
+				14A7DA5F1F1761AB007DFAAA /* MBNavigationController.m */,
+				14A7DA601F1761AB007DFAAA /* MBTabBarController.h */,
+				14A7DA611F1761AB007DFAAA /* MBTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		14C7B1E31F1729700021BB7D = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +227,7 @@
 			children = (
 				14C7B1F21F1729700021BB7D /* AppDelegate.h */,
 				14C7B1F31F1729700021BB7D /* AppDelegate.m */,
+				14A7DA4A1F1760D3007DFAAA /* Classes */,
 				14C7B1EF1F1729700021BB7D /* Supporting Files */,
 			);
 			path = MBBook;
@@ -346,6 +468,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				14C7B1F41F1729700021BB7D /* AppDelegate.m in Sources */,
+				14A7DA621F1761AB007DFAAA /* MBNavigationController.m in Sources */,
+				14A7DA631F1761AB007DFAAA /* MBTabBarController.m in Sources */,
 				14C7B1F11F1729700021BB7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

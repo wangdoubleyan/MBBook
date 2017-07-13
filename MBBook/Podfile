@@ -12,16 +12,6 @@ inhibit_all_warnings!
     pod 'MJRefresh'
     pod 'MBProgressHUD'
 
-    pod 'MOBFoundation'
-    pod 'ShareSDK2'
-    pod 'ShareSDK2/UI'
-    pod 'ShareSDK2/Connection/SinaWeibo'
-    pod 'ShareSDK2/Connection/WeChat'
-    pod 'ShareSDK2/Connection/QQ'
-    pod 'ShareSDK2/Connection/QZone'
-    pod 'ShareSDK2/Connection/SMS'
-    pod 'ShareSDK2/Connection/Mail'
-
 # data analysis
     pod 'UMengAnalytics'
 
