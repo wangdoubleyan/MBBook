@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C7A9CA9EB7DC8634AC11A60 /* libPods-MBBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356DA2B671E97C051C0BDDCD /* libPods-MBBook.a */; };
 		14C7B1F11F1729700021BB7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C7B1F01F1729700021BB7D /* main.m */; };
 		14C7B1F41F1729700021BB7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C7B1F31F1729700021BB7D /* AppDelegate.m */; };
 		14C7B1FC1F1729700021BB7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C7B1FB1F1729700021BB7D /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14A7DA481F175E10007DFAAA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		14C7B1EC1F1729700021BB7D /* MBBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C7B1F01F1729700021BB7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14C7B1F21F1729700021BB7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +48,9 @@
 		14C7B2101F1729700021BB7D /* MBBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C7B2141F1729700021BB7D /* MBBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBBookUITests.m; sourceTree = "<group>"; };
 		14C7B2161F1729700021BB7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E381D184EF8E2E43AF5576 /* Pods-MBBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBBook/Pods-MBBook.debug.xcconfig"; sourceTree = "<group>"; };
+		2530F2325D631D3781CE7484 /* Pods-MBBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBBook/Pods-MBBook.release.xcconfig"; sourceTree = "<group>"; };
+		356DA2B671E97C051C0BDDCD /* libPods-MBBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7A9CA9EB7DC8634AC11A60 /* libPods-MBBook.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +86,8 @@
 				14C7B2081F1729700021BB7D /* MBBookTests */,
 				14C7B2131F1729700021BB7D /* MBBookUITests */,
 				14C7B1ED1F1729700021BB7D /* Products */,
+				A8CC81964BD1E5CA52FD6C37 /* Pods */,
+				6982B0A9E83DBF825FF050EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +118,7 @@
 				14C7B1FD1F1729700021BB7D /* LaunchScreen.storyboard */,
 				14C7B2001F1729700021BB7D /* Info.plist */,
 				14C7B1F01F1729700021BB7D /* main.m */,
+				14A7DA481F175E10007DFAAA /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,6 +141,23 @@
 			path = MBBookUITests;
 			sourceTree = "<group>";
 		};
+		6982B0A9E83DBF825FF050EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				356DA2B671E97C051C0BDDCD /* libPods-MBBook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8CC81964BD1E5CA52FD6C37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24E381D184EF8E2E43AF5576 /* Pods-MBBook.debug.xcconfig */,
+				2530F2325D631D3781CE7484 /* Pods-MBBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14C7B2191F1729700021BB7D /* Build configuration list for PBXNativeTarget "MBBook" */;
 			buildPhases = (
+				590DD4A5426BFBA1F2EFC729 /* [CP] Check Pods Manifest.lock */,
 				14C7B1E81F1729700021BB7D /* Sources */,
 				14C7B1E91F1729700021BB7D /* Frameworks */,
 				14C7B1EA1F1729700021BB7D /* Resources */,
+				926FD6D45F2041395D318F42 /* [CP] Embed Pods Frameworks */,
+				5872FCC139B199844A9689C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5872FCC139B199844A9689C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBBook/Pods-MBBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		590DD4A5426BFBA1F2EFC729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		926FD6D45F2041395D318F42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MBBook/Pods-MBBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		14C7B1E81F1729700021BB7D /* Sources */ = {
@@ -408,10 +485,12 @@
 		};
 		14C7B21A1F1729700021BB7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E381D184EF8E2E43AF5576 /* Pods-MBBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KB3CNKVKG3;
 				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = MBBook/PrefixHeader.pch;
 				INFOPLIST_FILE = MBBook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -422,10 +501,12 @@
 		};
 		14C7B21B1F1729700021BB7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2530F2325D631D3781CE7484 /* Pods-MBBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KB3CNKVKG3;
 				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = MBBook/PrefixHeader.pch;
 				INFOPLIST_FILE = MBBook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -503,6 +584,7 @@
 				14C7B21B1F1729700021BB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C7B21C1F1729700021BB7D /* Build configuration list for PBXNativeTarget "MBBookTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +593,7 @@
 				14C7B21E1F1729700021BB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C7B21F1F1729700021BB7D /* Build configuration list for PBXNativeTarget "MBBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +602,7 @@
 				14C7B2211F1729700021BB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

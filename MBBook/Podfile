@@ -1,0 +1,28 @@
+platform :ios, "8.0"
+
+target 'MBBook' do
+inhibit_all_warnings!
+
+# funcs
+    pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'YYCache'
+    pod 'YYModel'
+    pod 'YYCategories'
+    pod 'MJRefresh'
+    pod 'MBProgressHUD'
+
+    pod 'MOBFoundation'
+    pod 'ShareSDK2'
+    pod 'ShareSDK2/UI'
+    pod 'ShareSDK2/Connection/SinaWeibo'
+    pod 'ShareSDK2/Connection/WeChat'
+    pod 'ShareSDK2/Connection/QQ'
+    pod 'ShareSDK2/Connection/QZone'
+    pod 'ShareSDK2/Connection/SMS'
+    pod 'ShareSDK2/Connection/Mail'
+
+# data analysis
+    pod 'UMengAnalytics'
+
+end
