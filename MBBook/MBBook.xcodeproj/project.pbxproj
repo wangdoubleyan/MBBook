@@ -10,6 +10,31 @@
 		0C7A9CA9EB7DC8634AC11A60 /* libPods-MBBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356DA2B671E97C051C0BDDCD /* libPods-MBBook.a */; };
 		14A7DA621F1761AB007DFAAA /* MBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA5F1F1761AB007DFAAA /* MBNavigationController.m */; };
 		14A7DA631F1761AB007DFAAA /* MBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA611F1761AB007DFAAA /* MBTabBarController.m */; };
+		14A7DA661F176E8F007DFAAA /* MBNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA651F176E8F007DFAAA /* MBNetworkManager.m */; };
+		14A7DA691F176EA2007DFAAA /* MBURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA681F176EA2007DFAAA /* MBURLManager.m */; };
+		14A7DA8E1F177A8A007DFAAA /* YBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA8D1F177A8A007DFAAA /* YBaseModel.m */; };
+		14A7DA911F177AE5007DFAAA /* YDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA901F177AE5007DFAAA /* YDateModel.m */; };
+		14A7DA941F177B01007DFAAA /* MBAlphaImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA931F177B01007DFAAA /* MBAlphaImageView.m */; };
+		14A7DA971F177B8A007DFAAA /* YBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA961F177B8A007DFAAA /* YBookModel.m */; };
+		14A7DAA41F177BAB007DFAAA /* YBookAuthorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA991F177BAB007DFAAA /* YBookAuthorModel.m */; };
+		14A7DAA51F177BAB007DFAAA /* YBookDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA9B1F177BAB007DFAAA /* YBookDetailModel.m */; };
+		14A7DAA61F177BAB007DFAAA /* YBookHelpfulModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA9D1F177BAB007DFAAA /* YBookHelpfulModel.m */; };
+		14A7DAA71F177BAB007DFAAA /* YBookReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DA9F1F177BAB007DFAAA /* YBookReviewModel.m */; };
+		14A7DAA81F177BAB007DFAAA /* YRecommendBookListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAA11F177BAB007DFAAA /* YRecommendBookListModel.m */; };
+		14A7DAA91F177BAB007DFAAA /* YRecommendBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAA31F177BAB007DFAAA /* YRecommendBookModel.m */; };
+		14A7DAB91F177C18007DFAAA /* YDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAB11F177C18007DFAAA /* YDownloadManager.m */; };
+		14A7DABA1F177C18007DFAAA /* YReaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAB31F177C18007DFAAA /* YReaderManager.m */; };
+		14A7DABB1F177C18007DFAAA /* YReaderRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAB51F177C18007DFAAA /* YReaderRecord.m */; };
+		14A7DABC1F177C18007DFAAA /* YReaderSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAB71F177C18007DFAAA /* YReaderSettings.m */; };
+		14A7DAC31F177C22007DFAAA /* YBookSummaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DABE1F177C22007DFAAA /* YBookSummaryModel.m */; };
+		14A7DAC41F177C22007DFAAA /* YChapterContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAC01F177C22007DFAAA /* YChapterContentModel.m */; };
+		14A7DAC51F177C22007DFAAA /* YChaptersLinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAC21F177C22007DFAAA /* YChaptersLinkModel.m */; };
+		14A7DAC81F177CC2007DFAAA /* YBookUpdateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAC71F177CC2007DFAAA /* YBookUpdateModel.m */; };
+		14A7DACB1F177CE3007DFAAA /* YRankingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DACA1F177CE3007DFAAA /* YRankingModel.m */; };
+		14A7DAD01F177D12007DFAAA /* YBookCatsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DACD1F177D12007DFAAA /* YBookCatsModel.m */; };
+		14A7DAD11F177D12007DFAAA /* YBookCatsSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DACF1F177D12007DFAAA /* YBookCatsSubModel.m */; };
+		14A7DAD41F177D60007DFAAA /* YSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAD31F177D60007DFAAA /* YSQLiteManager.m */; };
+		14A7DAD71F177DD1007DFAAA /* YProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A7DAD61F177DD1007DFAAA /* YProgressHUD.m */; };
 		14C7B1F11F1729700021BB7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C7B1F01F1729700021BB7D /* main.m */; };
 		14C7B1F41F1729700021BB7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C7B1F31F1729700021BB7D /* AppDelegate.m */; };
 		14C7B1FC1F1729700021BB7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C7B1FB1F1729700021BB7D /* Assets.xcassets */; };
@@ -41,6 +66,57 @@
 		14A7DA5F1F1761AB007DFAAA /* MBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNavigationController.m; sourceTree = "<group>"; };
 		14A7DA601F1761AB007DFAAA /* MBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTabBarController.h; sourceTree = "<group>"; };
 		14A7DA611F1761AB007DFAAA /* MBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTabBarController.m; sourceTree = "<group>"; };
+		14A7DA641F176E8F007DFAAA /* MBNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNetworkManager.h; sourceTree = "<group>"; };
+		14A7DA651F176E8F007DFAAA /* MBNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBNetworkManager.m; sourceTree = "<group>"; };
+		14A7DA671F176EA2007DFAAA /* MBURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBURLManager.h; sourceTree = "<group>"; };
+		14A7DA681F176EA2007DFAAA /* MBURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBURLManager.m; sourceTree = "<group>"; };
+		14A7DA8C1F177A8A007DFAAA /* YBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBaseModel.h; sourceTree = "<group>"; };
+		14A7DA8D1F177A8A007DFAAA /* YBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBaseModel.m; sourceTree = "<group>"; };
+		14A7DA8F1F177AE5007DFAAA /* YDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDateModel.h; sourceTree = "<group>"; };
+		14A7DA901F177AE5007DFAAA /* YDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDateModel.m; sourceTree = "<group>"; };
+		14A7DA921F177B01007DFAAA /* MBAlphaImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBAlphaImageView.h; sourceTree = "<group>"; };
+		14A7DA931F177B01007DFAAA /* MBAlphaImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBAlphaImageView.m; sourceTree = "<group>"; };
+		14A7DA951F177B8A007DFAAA /* YBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBookModel.h; sourceTree = "<group>"; };
+		14A7DA961F177B8A007DFAAA /* YBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBookModel.m; sourceTree = "<group>"; };
+		14A7DA981F177BAB007DFAAA /* YBookAuthorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBookAuthorModel.h; sourceTree = "<group>"; };
+		14A7DA991F177BAB007DFAAA /* YBookAuthorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBookAuthorModel.m; sourceTree = "<group>"; };
+		14A7DA9A1F177BAB007DFAAA /* YBookDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBookDetailModel.h; sourceTree = "<group>"; };
+		14A7DA9B1F177BAB007DFAAA /* YBookDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBookDetailModel.m; sourceTree = "<group>"; };
+		14A7DA9C1F177BAB007DFAAA /* YBookHelpfulModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBookHelpfulModel.h; sourceTree = "<group>"; };
+		14A7DA9D1F177BAB007DFAAA /* YBookHelpfulModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBookHelpfulModel.m; sourceTree = "<group>"; };
+		14A7DA9E1F177BAB007DFAAA /* YBookReviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBookReviewModel.h; sourceTree = "<group>"; };
+		14A7DA9F1F177BAB007DFAAA /* YBookReviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBookReviewModel.m; sourceTree = "<group>"; };
+		14A7DAA01F177BAB007DFAAA /* YRecommendBookListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRecommendBookListModel.h; sourceTree = "<group>"; };
+		14A7DAA11F177BAB007DFAAA /* YRecommendBookListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRecommendBookListModel.m; sourceTree = "<group>"; };
+		14A7DAA21F177BAB007DFAAA /* YRecommendBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRecommendBookModel.h; sourceTree = "<group>"; };
+		14A7DAA31F177BAB007DFAAA /* YRecommendBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRecommendBookModel.m; sourceTree = "<group>"; };
+		14A7DAB01F177C18007DFAAA /* YDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDownloadManager.h; sourceTree = "<group>"; };
+		14A7DAB11F177C18007DFAAA /* YDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDownloadManager.m; sourceTree = "<group>"; };
+		14A7DAB21F177C18007DFAAA /* YReaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YReaderManager.h; sourceTree = "<group>"; };
+		14A7DAB31F177C18007DFAAA /* YReaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YReaderManager.m; sourceTree = "<group>"; };
+		14A7DAB41F177C18007DFAAA /* YReaderRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YReaderRecord.h; sourceTree = "<group>"; };
+		14A7DAB51F177C18007DFAAA /* YReaderRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YReaderRecord.m; sourceTree = "<group>"; };
+		14A7DAB61F177C18007DFAAA /* YReaderSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YReaderSettings.h; sourceTree = "<group>"; };
+		14A7DAB71F177C18007DFAAA /* YReaderSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YReaderSettings.m; sourceTree = "<group>"; };
+		14A7DAB81F177C18007DFAAA /* YReaderUniversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YReaderUniversal.h; sourceTree = "<group>"; };
+		14A7DABD1F177C22007DFAAA /* YBookSummaryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBookSummaryModel.h; sourceTree = "<group>"; };
+		14A7DABE1F177C22007DFAAA /* YBookSummaryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBookSummaryModel.m; sourceTree = "<group>"; };
+		14A7DABF1F177C22007DFAAA /* YChapterContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YChapterContentModel.h; sourceTree = "<group>"; };
+		14A7DAC01F177C22007DFAAA /* YChapterContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YChapterContentModel.m; sourceTree = "<group>"; };
+		14A7DAC11F177C22007DFAAA /* YChaptersLinkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YChaptersLinkModel.h; sourceTree = "<group>"; };
+		14A7DAC21F177C22007DFAAA /* YChaptersLinkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YChaptersLinkModel.m; sourceTree = "<group>"; };
+		14A7DAC61F177CC2007DFAAA /* YBookUpdateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBookUpdateModel.h; sourceTree = "<group>"; };
+		14A7DAC71F177CC2007DFAAA /* YBookUpdateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBookUpdateModel.m; sourceTree = "<group>"; };
+		14A7DAC91F177CE3007DFAAA /* YRankingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRankingModel.h; sourceTree = "<group>"; };
+		14A7DACA1F177CE3007DFAAA /* YRankingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRankingModel.m; sourceTree = "<group>"; };
+		14A7DACC1F177D12007DFAAA /* YBookCatsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBookCatsModel.h; sourceTree = "<group>"; };
+		14A7DACD1F177D12007DFAAA /* YBookCatsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBookCatsModel.m; sourceTree = "<group>"; };
+		14A7DACE1F177D12007DFAAA /* YBookCatsSubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBookCatsSubModel.h; sourceTree = "<group>"; };
+		14A7DACF1F177D12007DFAAA /* YBookCatsSubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBookCatsSubModel.m; sourceTree = "<group>"; };
+		14A7DAD21F177D60007DFAAA /* YSQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSQLiteManager.h; sourceTree = "<group>"; };
+		14A7DAD31F177D60007DFAAA /* YSQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSQLiteManager.m; sourceTree = "<group>"; };
+		14A7DAD51F177DD1007DFAAA /* YProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YProgressHUD.h; sourceTree = "<group>"; };
+		14A7DAD61F177DD1007DFAAA /* YProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YProgressHUD.m; sourceTree = "<group>"; };
 		14C7B1EC1F1729700021BB7D /* MBBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C7B1F01F1729700021BB7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14C7B1F21F1729700021BB7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +180,9 @@
 		14A7DA4B1F1760D3007DFAAA /* BookDetail */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DA771F17792F007DFAAA /* Controller */,
+				14A7DA781F17792F007DFAAA /* Model */,
+				14A7DA791F17792F007DFAAA /* View */,
 			);
 			path = BookDetail;
 			sourceTree = "<group>";
@@ -111,6 +190,10 @@
 		14A7DA4C1F1760D3007DFAAA /* Cats */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DACC1F177D12007DFAAA /* YBookCatsModel.h */,
+				14A7DACD1F177D12007DFAAA /* YBookCatsModel.m */,
+				14A7DACE1F177D12007DFAAA /* YBookCatsSubModel.h */,
+				14A7DACF1F177D12007DFAAA /* YBookCatsSubModel.m */,
 			);
 			path = Cats;
 			sourceTree = "<group>";
@@ -118,6 +201,8 @@
 		14A7DA4D1F1760D3007DFAAA /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DAC61F177CC2007DFAAA /* YBookUpdateModel.h */,
+				14A7DAC71F177CC2007DFAAA /* YBookUpdateModel.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -125,6 +210,7 @@
 		14A7DA4E1F1760D3007DFAAA /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DA6A1F1771D1007DFAAA /* Model */,
 				14A7DA4F1F1760D3007DFAAA /* Custom */,
 				14A7DA501F1760D3007DFAAA /* Database */,
 				14A7DA511F1760D3007DFAAA /* Libs */,
@@ -136,6 +222,8 @@
 		14A7DA4F1F1760D3007DFAAA /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DA921F177B01007DFAAA /* MBAlphaImageView.h */,
+				14A7DA931F177B01007DFAAA /* MBAlphaImageView.m */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -143,6 +231,8 @@
 		14A7DA501F1760D3007DFAAA /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DAD21F177D60007DFAAA /* YSQLiteManager.h */,
+				14A7DAD31F177D60007DFAAA /* YSQLiteManager.m */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -150,6 +240,8 @@
 		14A7DA511F1760D3007DFAAA /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DAD51F177DD1007DFAAA /* YProgressHUD.h */,
+				14A7DAD61F177DD1007DFAAA /* YProgressHUD.m */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -157,6 +249,10 @@
 		14A7DA521F1760D3007DFAAA /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DA641F176E8F007DFAAA /* MBNetworkManager.h */,
+				14A7DA651F176E8F007DFAAA /* MBNetworkManager.m */,
+				14A7DA671F176EA2007DFAAA /* MBURLManager.h */,
+				14A7DA681F176EA2007DFAAA /* MBURLManager.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -164,6 +260,8 @@
 		14A7DA531F1760D3007DFAAA /* Ranking */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DAC91F177CE3007DFAAA /* YRankingModel.h */,
+				14A7DACA1F177CE3007DFAAA /* YRankingModel.m */,
 			);
 			path = Ranking;
 			sourceTree = "<group>";
@@ -171,6 +269,12 @@
 		14A7DA541F1760D3007DFAAA /* Reader */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DAAA1F177C0D007DFAAA /* Controller */,
+				14A7DAAB1F177C0D007DFAAA /* Directory */,
+				14A7DAAC1F177C0D007DFAAA /* Model */,
+				14A7DAAD1F177C0D007DFAAA /* Summary */,
+				14A7DAAE1F177C0D007DFAAA /* Universal */,
+				14A7DAAF1F177C0D007DFAAA /* View */,
 			);
 			path = Reader;
 			sourceTree = "<group>";
@@ -178,6 +282,8 @@
 		14A7DA551F1760D3007DFAAA /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				14A7DA951F177B8A007DFAAA /* YBookModel.h */,
+				14A7DA961F177B8A007DFAAA /* YBookModel.m */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -198,6 +304,107 @@
 				14A7DA611F1761AB007DFAAA /* MBTabBarController.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		14A7DA6A1F1771D1007DFAAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14A7DA8C1F177A8A007DFAAA /* YBaseModel.h */,
+				14A7DA8D1F177A8A007DFAAA /* YBaseModel.m */,
+				14A7DA8F1F177AE5007DFAAA /* YDateModel.h */,
+				14A7DA901F177AE5007DFAAA /* YDateModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14A7DA771F17792F007DFAAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14A7DA781F17792F007DFAAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14A7DA981F177BAB007DFAAA /* YBookAuthorModel.h */,
+				14A7DA991F177BAB007DFAAA /* YBookAuthorModel.m */,
+				14A7DA9A1F177BAB007DFAAA /* YBookDetailModel.h */,
+				14A7DA9B1F177BAB007DFAAA /* YBookDetailModel.m */,
+				14A7DA9C1F177BAB007DFAAA /* YBookHelpfulModel.h */,
+				14A7DA9D1F177BAB007DFAAA /* YBookHelpfulModel.m */,
+				14A7DA9E1F177BAB007DFAAA /* YBookReviewModel.h */,
+				14A7DA9F1F177BAB007DFAAA /* YBookReviewModel.m */,
+				14A7DAA01F177BAB007DFAAA /* YRecommendBookListModel.h */,
+				14A7DAA11F177BAB007DFAAA /* YRecommendBookListModel.m */,
+				14A7DAA21F177BAB007DFAAA /* YRecommendBookModel.h */,
+				14A7DAA31F177BAB007DFAAA /* YRecommendBookModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14A7DA791F17792F007DFAAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14A7DAAA1F177C0D007DFAAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14A7DAAB1F177C0D007DFAAA /* Directory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Directory;
+			sourceTree = "<group>";
+		};
+		14A7DAAC1F177C0D007DFAAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14A7DABD1F177C22007DFAAA /* YBookSummaryModel.h */,
+				14A7DABE1F177C22007DFAAA /* YBookSummaryModel.m */,
+				14A7DABF1F177C22007DFAAA /* YChapterContentModel.h */,
+				14A7DAC01F177C22007DFAAA /* YChapterContentModel.m */,
+				14A7DAC11F177C22007DFAAA /* YChaptersLinkModel.h */,
+				14A7DAC21F177C22007DFAAA /* YChaptersLinkModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14A7DAAD1F177C0D007DFAAA /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		14A7DAAE1F177C0D007DFAAA /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				14A7DAB01F177C18007DFAAA /* YDownloadManager.h */,
+				14A7DAB11F177C18007DFAAA /* YDownloadManager.m */,
+				14A7DAB21F177C18007DFAAA /* YReaderManager.h */,
+				14A7DAB31F177C18007DFAAA /* YReaderManager.m */,
+				14A7DAB41F177C18007DFAAA /* YReaderRecord.h */,
+				14A7DAB51F177C18007DFAAA /* YReaderRecord.m */,
+				14A7DAB61F177C18007DFAAA /* YReaderSettings.h */,
+				14A7DAB71F177C18007DFAAA /* YReaderSettings.m */,
+				14A7DAB81F177C18007DFAAA /* YReaderUniversal.h */,
+			);
+			path = Universal;
+			sourceTree = "<group>";
+		};
+		14A7DAAF1F177C0D007DFAAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		14C7B1E31F1729700021BB7D = {
@@ -467,10 +674,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A7DAB91F177C18007DFAAA /* YDownloadManager.m in Sources */,
+				14A7DAA41F177BAB007DFAAA /* YBookAuthorModel.m in Sources */,
 				14C7B1F41F1729700021BB7D /* AppDelegate.m in Sources */,
+				14A7DAA71F177BAB007DFAAA /* YBookReviewModel.m in Sources */,
+				14A7DA661F176E8F007DFAAA /* MBNetworkManager.m in Sources */,
+				14A7DAD11F177D12007DFAAA /* YBookCatsSubModel.m in Sources */,
+				14A7DAC81F177CC2007DFAAA /* YBookUpdateModel.m in Sources */,
+				14A7DAC41F177C22007DFAAA /* YChapterContentModel.m in Sources */,
+				14A7DA8E1F177A8A007DFAAA /* YBaseModel.m in Sources */,
+				14A7DAA61F177BAB007DFAAA /* YBookHelpfulModel.m in Sources */,
+				14A7DACB1F177CE3007DFAAA /* YRankingModel.m in Sources */,
+				14A7DA941F177B01007DFAAA /* MBAlphaImageView.m in Sources */,
+				14A7DAA81F177BAB007DFAAA /* YRecommendBookListModel.m in Sources */,
+				14A7DAA51F177BAB007DFAAA /* YBookDetailModel.m in Sources */,
 				14A7DA621F1761AB007DFAAA /* MBNavigationController.m in Sources */,
 				14A7DA631F1761AB007DFAAA /* MBTabBarController.m in Sources */,
+				14A7DA691F176EA2007DFAAA /* MBURLManager.m in Sources */,
+				14A7DAD71F177DD1007DFAAA /* YProgressHUD.m in Sources */,
 				14C7B1F11F1729700021BB7D /* main.m in Sources */,
+				14A7DAC51F177C22007DFAAA /* YChaptersLinkModel.m in Sources */,
+				14A7DAC31F177C22007DFAAA /* YBookSummaryModel.m in Sources */,
+				14A7DABA1F177C18007DFAAA /* YReaderManager.m in Sources */,
+				14A7DAD41F177D60007DFAAA /* YSQLiteManager.m in Sources */,
+				14A7DABB1F177C18007DFAAA /* YReaderRecord.m in Sources */,
+				14A7DA971F177B8A007DFAAA /* YBookModel.m in Sources */,
+				14A7DABC1F177C18007DFAAA /* YReaderSettings.m in Sources */,
+				14A7DA911F177AE5007DFAAA /* YDateModel.m in Sources */,
+				14A7DAA91F177BAB007DFAAA /* YRecommendBookModel.m in Sources */,
+				14A7DAD01F177D12007DFAAA /* YBookCatsModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
